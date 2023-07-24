@@ -1,0 +1,187 @@
+.text1{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 150% */
+}
+
+.text2{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 78%; /* 75% */
+
+}
+
+.text3{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.detik-blue{
+    --tw-text-opacity: 1;
+    color: rgb(0 124 189 / var(--tw-text-opacity));
+}
+
+.hero{
+    height: 900px;
+    width: 100%;
+    background-image: url('image/Background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hero h5{
+    margin-top:350px
+}
+
+.hero p{
+    margin-top:10px
+}
+
+.daftar{
+    text-align: center;
+    font-size: medium; 
+    width: 200px;
+    height: auto;
+    margin: auto;
+    background-color: #3EB7DD;
+}
+
+.inline-flex{
+    display: inline-flex;
+}
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+
+.mechanism{
+    height: 1200px;
+    width: 100%;
+    background-image: url('image/Backgroundmechanism.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top:4%;
+}
+
+.mekanisme{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    padding-left: 15%;
+    line-height: 20px; /* 41.667% */
+}
+
+.mecha{
+    width: 65%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    display: block;
+    margin: auto;
+
+}
+
+.mecha1 {
+    height: 20%;
+    display: flex;
+    padding: 30px;
+    gap: 17px;
+    border-radius: 10px;
+    display: block;
+    background: #FFF;
+    grid-template-rows: auto;
+}
+
+.gap{
+    height: 17px;
+    display: flex;
+    padding: 30px;
+    gap: 17px;
+    border-radius: 10px;
+    display: block;
+    grid-template-rows: auto;
+}
+.mecha2 {
+    height: 20%;
+    display: flex;
+    padding: 30px;
+    gap: 17px;
+    border-radius: 10px;
+    display: block;
+    background: #FFF;
+    grid-template-rows: auto;
+
+}
+
+.mecha3 {
+    height: 20%;
+    display: flex;
+    padding: 30px;
+    gap: 17px;
+    border-radius: 10px;
+    display: block;
+    background: #FFF;
+    grid-template-rows: auto;
+}
+
+hr{
+    border-top: 2px solid #FFF;
+}
+
+.regis{
+    height: 400px;
+    width: 100%;
+    background-image: url('image/registerbg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top:4%;
+}
+
+.regis h1{
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.mechareg{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin: -15% auto;
+
+}
+
+.mecha1reg {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    padding: 500px;
+    border-radius: 15px;
+    display: block;
+    background: #FFF;
+    grid-template-rows: auto;
+    justify-content: center;
+}
+
+
